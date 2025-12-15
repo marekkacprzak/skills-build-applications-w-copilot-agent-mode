@@ -1,17 +1,17 @@
-"""octofit_tracker URL Configuration
+
+"""
+octofit_tracker URL Configuration
+
+Codespace URL support:
+----------------------
+All REST API endpoints are available at:
+    https://$CODESPACE_NAME-8000.app.github.dev/api/[component]/
+where $CODESPACE_NAME is dynamically set from the environment.
+The codespace URL logic is handled in settings.py using the $CODESPACE_NAME environment variable and USE_X_FORWARDED_HOST.
+No codespace URL is hardcoded here; see settings.py for details.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
 from django.contrib import admin
