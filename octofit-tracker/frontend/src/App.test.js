@@ -3,9 +3,7 @@ import App from './App';
 
 test('renders Octofit Tracker welcome message', () => {
   render(<App />);
-  const welcomeElement = screen.getByText((content, element) => {
-    return element?.tagName.toLowerCase() === 'h1' && content.includes('Welcome to') && element.textContent?.includes('Octofit Tracker');
-  });
+  const welcomeElement = screen.getByRole('heading', { name: /Welcome to.*Octofit Tracker/i });
   expect(welcomeElement).toBeInTheDocument();
 });
 
