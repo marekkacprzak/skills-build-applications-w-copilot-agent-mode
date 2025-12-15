@@ -1,0 +1,93 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+  color: #1a237e;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%) !important;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus {
+  color: #ffd600 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+  background: #fff;
+}
+.card-title {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.table {
+  background: #f3f7fa;
+  color: #263238;
+}
+.table thead {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #90caf9;
+}
+
+.btn-primary, .btn-outline-light {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn-primary:hover, .btn-outline-light:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #1e88e5 100%);
+  color: #ffd600;
+}
+
+a, .App-link {
+  color: #1976d2;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ffd600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+/* Custom logo style */
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+/* Modal custom style */
+.modal-content {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.15);
+}
